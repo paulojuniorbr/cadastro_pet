@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pet Vida</title>
+</head>
+
+<body>
+    <!--bloco cadastro-->
+    <div class="bloco">
+
+        <img src="./imagem/pet.png">
+        <!--hader-->
+        <h1>Cadastre seu Pet</h1>
+
+        <!--formulario-->
+        <form>
+
+            <!--nome e idade-->
+            <div class="nomeIdade">
+                <input type="text" placeholder="Nome do Pet" class="nome">
+                <input type="number" placeholder="Idade" class="idade">
+            </div>
+
+            <!--email-->
+            <input type="email" placeholder="Email do Responsavel">
+
+            <!--selecionar especie-->
+            <p>Especie</p>
+
+            <div class="radio">
+                <span>
+                    <input type="radio" id="canino" name="especie">
+                    <label for="canino">Canino</label>
+                </span>
+
+                <span>
+                    <input type="radio" id="felino" name="especie">
+                    <label for="felino">Felino</label>
+                </span>
+            </div>
+
+            <!--selecionar porte-->
+            <p>Porte</p>
+
+            <div class="radio">
+
+                <span>
+                    <input type="radio" id="pequeno" name="porte">
+                    <label for="pequeno">Pequeno</label>
+                </span>
+
+                <span>
+                    <input type="radio" id="pequeno" name="porte">
+                    <label for="medio">Medio</label>
+                </span>
+
+                <span>
+                    <input type="radio" id="pequeno" name="porte">
+                    <label for="grande">Grande</label>
+                </span>
+            </div>
+
+            <!--botao-->
+            <button>Cadastrar</button>
+        </form>
+    </div>
+</body>
+
+</html>
